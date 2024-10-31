@@ -1,0 +1,194 @@
+
+.read-me-later .tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #fd0000;
+}
+
+.read-me-later .tabs .tab a {
+    background-color: transparent;
+    color: #009688;
+    font-size: 16px;
+}
+.read-me-later-tabs .tabs .tab a.active {
+    background: rgb(0, 150, 136);
+    color: #fff;
+}
+
+.read-me-later-tabs .tabs .tab a {
+    color: rgb(0, 150, 136);
+}
+.read-me-later-tabs .tabs .tab a:hover, .read-me-later-tabs .tabs .tab a:active {
+    color: #ee6e73;
+}
+.read-me-later-tabs ul.tabs {
+    border: 1px solid #009688;
+}
+.read-me-later-table .form-table th {
+
+    width: 370px;
+}
+.read-me-later-table{
+    background: #fffefe;
+}
+.read-me-later-table tr{
+    border:none;
+}
+.read-me-later-table tr .post-types span{
+    margin-bottom: 20px;
+}
+.read-me-later-table input[type=text]:not(.browser-default){
+    border-bottom: none;
+    height: 15px;
+}
+.read-me-later-table label {
+    cursor: pointer;
+    color: #000;
+    font-size: 15px;
+}
+.read-me-later-table .form-table th {
+
+    font-weight: inherit;
+    font-size:15px;
+}
+.read-me-later-table [type="checkbox"]+span:not(.lever) {
+text-transform: capitalize;    
+}
+
+.read-me-later-icon span img{
+    width:50px;
+    height: 50px;
+    
+}
+.read-me-later-icon [type="radio"]:not(:checked) + span, [type="radio"]:checked + span {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1rem;
+    -webkit-transition: .28s ease;
+    transition: .28s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.read-me-later-icon [type="radio"] + span:before, [type="radio"] + span:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 4px;
+    width: 16px;
+    height: 16px;
+    z-index: 0;
+    -webkit-transition: .28s ease;
+    transition: .28s ease
+}
+
+.read-me-later-icon [type="radio"]:not(:checked) + span:before, [type="radio"]:not(:checked) + span:after,
+.read-me-later-icon [type="radio"]:checked + span:before, [type="radio"]:checked + span:after,
+.read-me-later-icon [type="radio"].with-gap:checked + span:before, [type="radio"].with-gap:checked + span:after {
+    border-radius: 50%
+}
+
+.read-me-later-icon [type="radio"]:not(:checked) + span:before, [type="radio"]:not(:checked) + span:after {
+    border: 2px solid #5a5a5a
+}
+
+.read-me-later-icon [type="radio"]:not(:checked) + span:after {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+}
+
+.read-me-later-icon [type="radio"]:checked + span:before {
+    border: 2px solid transparent
+}
+
+.read-me-later-icon [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:before,
+[type="radio"].with-gap:checked + span:after {
+    border: 2px solid #26a69a
+}
+
+.read-me-later-icon [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
+    background-color: #26a69a
+}
+
+.read-me-later-icon [type="radio"]:checked + span:after {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02)
+}
+
+.read-me-later-icon [type="radio"].with-gap:checked + span:after {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5)
+}
+
+.read-me-later-icon [type="radio"].tabbed:focus + span:before {
+    -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+.read-me-later-icon [type="radio"].with-gap:disabled:checked + span:before {
+    border: 2px solid rgba(0, 0, 0, 0.42)
+}
+
+.read-me-later-icon [type="radio"].with-gap:disabled:checked + span:after {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.42)
+}
+
+.read-me-later-icon [type="radio"]:disabled:not(:checked) + span:before, [type="radio"]:disabled:checked + span:before {
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.42)
+}
+
+.read-me-later-icon [type="radio"]:disabled + span {
+    color: rgba(0, 0, 0, 0.42)
+}
+.read-me-later-icon li{
+    display: inline;
+}
+.read-me-later-icon [type="radio"]:disabled:not(:checked) + span:before {
+    border-color: rgba(0, 0, 0, 0.42)
+}
+.read-me-later-table .form-table td p{
+    width: 300px;
+}
+
+.read-me-later-icon [type="radio"]:disabled:checked + span:after {
+    background-color: rgba(0, 0, 0, 0.42);
+    border-color: #949494
+}
+.read-me-later-icon  [type="radio"]:checked+span img{
+    box-shadow: 0 0 3px 3px #009688;
+    border:1px solid #009688;
+    padding:5px;
+    
+}
+.read-me-later-icon [type="radio"]{
+    opacity: 0;
+}
+.read-me-later-icon [type="radio"]:not(:checked) + span:before, 
+[type="radio"]:not(:checked) + span:after {
+    content: none;
+}
+.read-me-later-icon [type="radio"]:checked + span:after, 
+[type="radio"].with-gap:checked + span:after{
+    content: none;
+}
+ .read-me-later-table .button.button-primary{
+        background: rgb(0, 150, 136);
+    border-color: #009688 #009688 #096e65;
+    box-shadow: 0 1px 0 rgb(0, 150, 136);
+    color: #fff;
+        font-size: 15px;
+    text-decoration: none;
+    padding: 0px 20px;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #009688, 0 1px 1px #009688, -1px 0 1px #009688;
+    
+}
+.read-me-later-table .button.button-primary:hover{
+color:#ee6e73;
